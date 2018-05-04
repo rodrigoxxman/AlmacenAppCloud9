@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initialize() {
 
-        ApiService service = ApiServiceGenerator.createService(ApiService.class);
+        ApiService service = ApiServiceGenerator.createService(ApiService.class); //CLASE DEL SINGLETON APISERVICEGENERATOR
 
         Call<List<Producto>> call = service.getProductos();
 
