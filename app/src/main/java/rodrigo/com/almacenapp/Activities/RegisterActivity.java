@@ -40,15 +40,16 @@ public class RegisterActivity extends AppCompatActivity {
     private static final String TAG = RegisterActivity.class.getSimpleName();
 
     private ImageView imagePreview;
+
     private EditText nombreInput;
     private EditText precioInput;
     private EditText detallesInput;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
         StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
         StrictMode.setVmPolicy(builder.build());
 
@@ -57,6 +58,7 @@ public class RegisterActivity extends AppCompatActivity {
         precioInput = findViewById(R.id.precio_input);
         detallesInput = findViewById(R.id.detalles_input);
     }
+
     /**
      * Camera handler
      */
@@ -244,6 +246,7 @@ public class RegisterActivity extends AppCompatActivity {
             }
         }
     }
+
     // Redimensionar una imagen bitmap
     private Bitmap scaleBitmapDown(Bitmap bitmap, int maxDimension) {
 
@@ -264,4 +267,5 @@ public class RegisterActivity extends AppCompatActivity {
         }
         return Bitmap.createScaledBitmap(bitmap, resizedWidth, resizedHeight, false);
     }
+
 }

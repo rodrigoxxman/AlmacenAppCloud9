@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://D:\ALUMNO\ServicioFireBaseApp\Cloud9AlmacenApp\AlmacenAppCloud9\AlmacenApp.iml" filepath="D:\ALUMNO\ServicioFireBaseApp\Cloud9AlmacenApp\AlmacenAppCloud9\AlmacenApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AlmacenAppCloud9.iml" filepath="$PROJECT_DIR$/AlmacenAppCloud9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AlmacenAppCloud9.iml" filepath="$PROJECT_DIR$/.idea/AlmacenAppCloud9.iml" />
+      <module fileurl="file://D:\test\AlmacenCloud9\AlmacenAppCloud9\AlmacenAppCloud9.iml" filepath="D:\test\AlmacenCloud9\AlmacenAppCloud9\AlmacenAppCloud9.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\test\AlmacenCloud9\AlmacenAppCloud9\app\app.iml" filepath="D:\test\AlmacenCloud9\AlmacenAppCloud9\app\app.iml" />
       <module fileurl="file://D:\ALUMNO\ServicioFireBaseApp\Cloud9AlmacenApp\AlmacenAppCloud9\app\app.iml" filepath="D:\ALUMNO\ServicioFireBaseApp\Cloud9AlmacenApp\AlmacenAppCloud9\app\app.iml" />
     </modules>
   </component>
